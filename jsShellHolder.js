@@ -144,8 +144,8 @@ async function maybePrintUpdateBanner(shell) {
 
   if (localVersion && localVersion !== remoteVersion) {
     shell.printHTML(
-      `<span style="color:#ff6b6b;">New version available: ${remoteVersion}</span>` +
-      `<span style="opacity:0.8;"> (installed: ${localVersion}) — run <code>init --check</code></span>`
+      `<span style="color:#ff6b6b;">New asset version available: ${remoteVersion}</span>` +
+      `<span style="opacity:0.8;"> (installed: ${localVersion}) — run init --check</span>`
     );
     shell.print('');
   }
@@ -539,7 +539,6 @@ export function jsShellHolder(containerId) {
       shell.print('');
     }
     shell.printHTML('Welcome to <a href="www.aldrian.cc">jsshell@aldrian.cc</a>!');
-    shell.printHTML('Based on <a href="https://github.com/francoisburdy/js-shell-emulator">francoisburdy/js-shell-emulator</a>, extended in <a href="https://github.com/oaldrian/js-shell-emulator">oaldrian/js-shell-emulator</a>');
     shell.print('Hit Tab for available commands, or just explore...');
     shell.print('');
 
