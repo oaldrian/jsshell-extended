@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsshell</title>
+    <style>
+        .terminal-container {
+            overflow: hidden;
+        }
+
+        .jsShell {
+            border: none !important;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="terminal-container">
+        <div id="terminal"></div>
+    </div>
+    </div>
+
+    <script type="module">
+        import { jsShellHolder } from './jsShellHolder.js';
+
+        // Initialize the shell in the div with id "terminal"
+        jsShellHolder('terminal');
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,2 @@
+Base shell taken from https://github.com/francoisburdy/js-shell-emulator at 20260118 under the MIT license given in the repo. 
+See license in /sys/licenses/license_shell.txt

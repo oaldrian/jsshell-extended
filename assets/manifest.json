@@ -1,0 +1,292 @@
+[
+  {
+    "src": "vfs/bin/snake.js",
+    "dest": "/bin/snake.js",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/bin/2048.js",
+    "dest": "/bin/2048.js",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/bin/minesweeper.js",
+    "dest": "/bin/minesweeper.js",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/bin/conways.js",
+    "dest": "/bin/conways.js",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/bin/tetris.js",
+    "dest": "/bin/tetris.js",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/bin/breakout.js",
+    "dest": "/bin/breakout.js",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/bin/roguelike.js",
+    "dest": "/bin/roguelike.js",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/bin/spaceinvaders.js",
+    "dest": "/bin/spaceinvaders.js",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/bin/edit.js",
+    "dest": "/bin/edit.js",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/bin/gallery.js",
+    "dest": "/bin/gallery.js",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/bin/viewmd.js",
+    "dest": "/bin/viewmd.js",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/bin/sample.js",
+    "dest": "/bin/sample.js",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/home/user/readme.txt",
+    "dest": "/home/user/readme.txt",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/home/user/demo.jsh",
+    "dest": "/home/user/demo.jsh",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/home/user/docs/overview.md",
+    "dest": "/home/user/docs/overview.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/home/user/docs/details.md",
+    "dest": "/home/user/docs/details.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/home/user/docs/writing-programs.md",
+    "dest": "/home/user/docs/writing-programs.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/sys/licenses/license_base_shell.txt",
+    "dest": "/sys/licenses/license_base_shell.txt",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/sys/licenses/license_shell.txt",
+    "dest": "/sys/licenses/license_shell.txt",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/help.md",
+    "dest": "/etc/help/help.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/cat.md",
+    "dest": "/etc/help/cat.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/cd.md",
+    "dest": "/etc/help/cd.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/pwd.md",
+    "dest": "/etc/help/pwd.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/ls.md",
+    "dest": "/etc/help/ls.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/mkdir.md",
+    "dest": "/etc/help/mkdir.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/rmdir.md",
+    "dest": "/etc/help/rmdir.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/rm.md",
+    "dest": "/etc/help/rm.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/touch.md",
+    "dest": "/etc/help/touch.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/copy.md",
+    "dest": "/etc/help/copy.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/mv.md",
+    "dest": "/etc/help/mv.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/print.md",
+    "dest": "/etc/help/print.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/delay.md",
+    "dest": "/etc/help/delay.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/download.md",
+    "dest": "/etc/help/download.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/upload.md",
+    "dest": "/etc/help/upload.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/backup.md",
+    "dest": "/etc/help/backup.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/restore.md",
+    "dest": "/etc/help/restore.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/init.md",
+    "dest": "/etc/help/init.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/config.md",
+    "dest": "/etc/help/config.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/cls.md",
+    "dest": "/etc/help/cls.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/exit.md",
+    "dest": "/etc/help/exit.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/date.md",
+    "dest": "/etc/help/date.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/edit.md",
+    "dest": "/etc/help/edit.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/gallery.md",
+    "dest": "/etc/help/gallery.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/viewmd.md",
+    "dest": "/etc/help/viewmd.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/find.md",
+    "dest": "/etc/help/find.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/grep.md",
+    "dest": "/etc/help/grep.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/sample.md",
+    "dest": "/etc/help/sample.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/snake.md",
+    "dest": "/etc/help/snake.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/2048.md",
+    "dest": "/etc/help/2048.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/minesweeper.md",
+    "dest": "/etc/help/minesweeper.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/conways.md",
+    "dest": "/etc/help/conways.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/tetris.md",
+    "dest": "/etc/help/tetris.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/breakout.md",
+    "dest": "/etc/help/breakout.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/roguelike.md",
+    "dest": "/etc/help/roguelike.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/etc/help/spaceinvaders.md",
+    "dest": "/etc/help/spaceinvaders.md",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/home/user/test.png",
+    "dest": "/home/user/test.png",
+    "encoding": "dataUrl"
+  },
+  {
+    "src": "vfs/sys/historyLimit.txt",
+    "dest": "/sys/historyLimit.txt",
+    "encoding": "text"
+  },
+  {
+    "src": "vfs/sys/licenses/attributions.txt",
+    "dest": "/sys/licenses/attributions.txt",
+    "encoding": "text"
+  }
+]
