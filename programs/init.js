@@ -458,11 +458,17 @@ export async function executeInitProgram(shell, command, args) {
   }
 
   if (doUpdate) {
+    const cwdSnapshot = typeof vfs.getCwdPath === 'function' ? vfs.getCwdPath() : '/';
     const remote = await loadAssetsVersion();
     const assets = await updateAssetsFromManifest(shell);
     if (assets.total === 0) {
       shell.print('init: no assets found in manifest.');
       shell.print('');
+      try {
+        vfs.changeDirectory(cwdSnapshot);
+      } catch (_) {
+        // ignore
+      }
       return { handled: true, shouldContinue: true, ok: true };
     }
 
@@ -481,6 +487,11 @@ export async function executeInitProgram(shell, command, args) {
     }
 
     shell.print('');
+    try {
+      vfs.changeDirectory(cwdSnapshot);
+    } catch (_) {
+      // ignore
+    }
     return { handled: true, shouldContinue: true, ok: assets.failed === 0 };
   }
 
