@@ -181,7 +181,15 @@ function render(shell, state) {
       }
 
       if (x === state.cursorX && y === state.cursorY) {
-        line += ch === ' ' ? '▢' : ch;
+        if (state.gameOver && state.minesArr[i]) {
+          line += '*';
+        } else if (state.flags[i]) {
+          line += '⚑';
+        } else if (state.revealed[i]) {
+          line += ch === ' ' ? '▢' : ch;
+        } else {
+          line += '▢';
+        }
       } else {
         line += ch;
       }
